@@ -1,0 +1,42 @@
+body{
+    background: url(https://img.freepik.com/free-vector/india-cultural-symbols-patterns-poster_1284-4240.jpg?w=740&t=st=1691862209~exp=1691862809~hmac=cbfe0967b0d78fc22c5902c99ec3e51347812ef55a4ea37096f7be067bb6f53c);
+}
+h1{
+    text-align: center;
+    font-size: 8rem;
+    font-family: 'Londrina Shadow', cursive;
+color: rgb(7, 21, 5);
+font-weight: 800;
+}
+p{
+    color:rgb(2, 4, 1);
+    font-size: 2rem;
+  border-top: 30px;
+   text-align:center;
+   font-family: 'Sigmar', cursive;
+   font-weight: 600;
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+    body {
+      background-color: lightsalmon;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 1200px) {
+    body {
+      background-color: powderblue;
+    }
+  }
+
+  @media (min-width: 1201px) and (max-width: 1600px) {
+    body {
+      background-color: limegreen;
+    }
+  }
+
+  @media (min-width: 1601px) {
+    body {
+      background-color: seagreen;
+    }
+  }
